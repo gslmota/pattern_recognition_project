@@ -8,7 +8,7 @@ O repositório é um projeto de comparação entre  GNN - Graph Neural Networks 
 ### Ambiente
 Todos os modelos foram treinados utilizando o Google Colab. A maioria das bibliotecas estão pré-instaladas dentro do colab. Algumas será necessário a instalação, porém já estão incluídas no notebook, necessário apenas a execução. Certifique-se de que essas bibliotecas estejam instaladas em seu ambiente, caso queira repetir o treinamento no Google Colab.
 
-##### Parâmetros do Modelo
+##### Parâmetros do Modelo GNN
 
 - **Tarefa (Task):** Classificação
 - **Modo (Mode):** Treinamento
@@ -17,20 +17,8 @@ Todos os modelos foram treinados utilizando o Google Colab. A maioria das biblio
 - **Paciência (Patience):** 50.
 - **Tamanho do Lote (Batch):** auto.
 
-##### Resultados do Modelo
 
-<div style="display: flex; justify-content: space-between;">
-  <a target="_blank" align="center">
-    <img height="400" width="400" src="https://github.com/Daniel227a/desafio/blob/dev/images/results_ProvaGabarito.png" alt="Resultados da Prova">
-  </a>
-  <a target="_blank" align="center">
-    <img height="400" width="400" src="https://github.com/Daniel227a/desafio/blob/dev/images/confusion_matrix_normalized_ProvaGabarito.png" alt="Matriz de Confusão - Modelo Verde">
-  </a>
-</div>
-
-#### Modelo dos Simulados
-
-##### Parâmetros do Modelo
+##### Parâmetros do Modelo MLP
 
 - **Tarefa (Task):** Classificação
 - **Modo (Mode):** Treinamento
@@ -39,18 +27,6 @@ Todos os modelos foram treinados utilizando o Google Colab. A maioria das biblio
 - **Paciência (Patience):** 15.
 - **Tamanho do Lote (Batch):** auto.
 
-##### Resultados do Modelo 
-
-<div style="display: flex; justify-content: space-between;">
-  <a target="_blank" align="center">
-    <img height="400" width="400" src="https://github.com/Daniel227a/desafio/blob/dev/images/results_Simulados.png" alt="Resultados da Prova">
-  </a>
-  <a target="_blank" align="center">
-    <img height="400" width="400" src="https://github.com/Daniel227a/desafio/blob/dev/images/confusion_matrix_normalized_Simulados.png" alt="Matriz de Confusão - Modelo Verde">
-  </a>
-</div>
-
-	
 ## Como Executar o Projeto Localmente
 
 1. **Clone este repositório:**
