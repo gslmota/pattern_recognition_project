@@ -14,7 +14,7 @@ Todos os modelos foram treinados utilizando o Google Colab. A maioria das biblio
 - **Modo (Mode):** Treinamento
 - **Modelo (Model):** GNN
 - **Épocas (Epochs):** 500.
-- **Paciência (Patience):** 15.
+- **Paciência (Patience):** 50.
 - **Tamanho do Lote (Batch):** auto.
 
 ##### Resultados do Modelo
