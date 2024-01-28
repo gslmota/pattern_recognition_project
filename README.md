@@ -3,6 +3,9 @@
 
 O repositório é um projeto de comparação entre  GNN - Graph Neural Networks e  MLP - Multilayer Perceptrons para a tarefa de classificação de padrões. O projeto é implementado utilizando as bibliotecas PyTorch e TensorFlow.
 
+## Equipe
+Gabriel Sávio
+Rodrigo Jeremias
 
 ## Informações de Treinamento
 ### Ambiente
